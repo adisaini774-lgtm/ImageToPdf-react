@@ -1,8 +1,31 @@
-# React + Vite
+# 🖼️ Image to PDF Converter (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React-based** Image to PDF Converter that allows users to **upload an image** and **download it as a PDF**.  
+The project includes a **Dark Mode Toggle** and a responsive UI with modern styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+✔ **Upload Images** (`.png`, `.jpg`, `.jpeg`)  
+✔ **Convert Images to PDF** with a single click  
+✔ **Dark Mode Toggle** (No Context API)  
+✔ **Fully Responsive Design**  
+✔ **Smooth Transitions & Animations**  
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js** (Frontend)  
+- **jsPDF** (For PDF Generation)  
+- **CSS3** (Modern Styling & Dark Mode)  
+
+---
+
+## 📌 Installation & Setup
+
+1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/devraj1608/ImageToPdf-react.git
+cd Image-to-PDF-Converter
