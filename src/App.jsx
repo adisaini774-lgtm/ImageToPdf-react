@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import ImageToPdf from "./ImageToPdf";
 import "./App.css";
 
-function App() {
+function App( {
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem("darkMode") === "true";
   });
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-//export default App;
+export default App;
