@@ -23,4 +23,4 @@ steps:
     cavScanServiceConnection: 'demopipelinesecuritytest'
     scanType: 'Dynamic'
     dynamicRunMode: 'Standalone'
-    targetUrl: 'http://localhost:8085/'
+    targetUrl: 'http://127.0.0.1:8085/'
