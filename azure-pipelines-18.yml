@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default
 
 steps:
 - script: echo Hello, world!
@@ -23,4 +23,4 @@ steps:
     cavScanServiceConnection: 'demopipelinesecuritytest'
     scanType: 'Dynamic'
     dynamicRunMode: 'Standalone'
-    targetUrl: 'https://example.com/'
+    targetUrl: 'http://127.0.0.1:8085/'
