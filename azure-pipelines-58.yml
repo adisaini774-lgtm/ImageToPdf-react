@@ -1,0 +1,19 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: CavAITestCaseDevAdoV3@1
+  inputs:
+    serviceConnection: 'cav-ai-testcase-dev-demoproject'
+    applicationUrl: 'http://66.220.31.130:31528/'
+    executionSource: 'JIRA'
+    jiraEpicPattern: 'EM-527'
+    jiraIntegrationName: 'JIRA_CONFIG_TEST'
