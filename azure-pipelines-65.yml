@@ -10,6 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- bash: |
+    set -x
+    nc -vz -w 10 10.10.10.115 4444
+    curl -vk --connect-timeout 10 https://10.10.10.115:4444/
+  displayName: Test Cavisson connectivity
 - task: CavAITestCaseDevAdoV9@1
   inputs:
     serviceConnection: 'cav-ai-demo-test'
